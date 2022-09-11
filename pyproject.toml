@@ -1,0 +1,18 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "propgraph"
+description = "A graph structure that can take arbitrary properties."
+readme = "README.md"
+license = "MIT"
+keywords = [
+  "graph",
+  "data",
+  "structure",
+]
+authors = [
+  { name = "Rob Reid" },
+]
+version = "0.1.1"

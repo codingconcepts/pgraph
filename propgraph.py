@@ -118,4 +118,5 @@ class Graph:
             Graph.print_node(n, index + 1)
 
     def print_node_line(n, index, additional_properties):
-        print("\t" * index + n.id, [n[p] for p in additional_properties] or "")
+        props = [n[p] for p in additional_properties if n[p]] or ""
+        print("\t" * index + n.id, ", ".join(props))

@@ -1,4 +1,4 @@
-from pgraph import Graph
+from propgraph import Graph
 
 
 def test_graph_init():
